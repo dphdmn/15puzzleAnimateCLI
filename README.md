@@ -7,6 +7,7 @@
 ### Requirements
 
 Before using 15puzzleAnimateCLI, make sure to have the "slidycli" tool installed. You can find it at [slidy-cli](https://github.com/benwh1/slidy-cli/releases).
+For video animations you may like to use [this python script](https://github.com/dphdmn/slidingPuzzleAnimation)
 
 ### Usage
 
