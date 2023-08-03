@@ -25,6 +25,12 @@ Follow these steps to create your 15 Puzzle animations:
    This command will animate the 15 Puzzle with the initial configuration `10 7 6 11/1 3 12 5/4 13 14 2/9 0 15 8`, following the sequence of movements provided in the second argument `DLDLDRRUURULLDRDLULDDRRRULDLUULURRDDLLDRRULLUU`.
 
    Ensure that the input format for the 15 Puzzle configuration is correct, with numbers separated by spaces, and each row separated by a forward slash. The movement sequence should consist of characters 'U' (up), 'D' (down), 'L' (left), and 'R' (right) to represent the sliding direction of the tile.
+4. Additionally, if you wish to animate the entire solution for a specific 15 Puzzle configuration without having to provide the initial configuration separately, you can do so by running the command `animate` followed by the movement sequence in the format
+   ```
+   anime DLDLDRRUURULLDRDLULDDRRRULDLUULURRDDLLDRRULLUU
+   ```
+   This command will automatically animate the 15 Puzzle solving process for the given sequence of movements, without the need for specifying the initial configuration. Simply run the command as is, without enclosing the movement sequence in quotes, and enjoy watching the animation of the complete solution.
+
 
 ### Creating 15 Puzzle Animations
 
