@@ -8,11 +8,16 @@ To use 15puzzleAnimateCLI, you must have the "slidycli" library installed. You c
 
 ### Usage
 
-Follow these steps to utilize the 15puzzleAnimateCLI:
+To create captivating animations with 15puzzleAnimateCLI, follow these steps:
 
-1. Compile the tool using `compile.bat`, or use `core.exe`.
-2. **Windows Only:** Please note that 15puzzleAnimateCLI has been specifically designed for Windows and may not be compatible with other operating systems.
-3. To create an animation, use the following example command:
+0. Clone or download the repository to your local machine.
+
+1. Compile the tool by running `compile.bat` from `colortest.cpp`, or simply download `core.exe` if you prefer the precompiled version.
+
+2. **Windows Only:** Please note that 15puzzleAnimateCLI has been tailored specifically for Windows and might not be compatible with other operating systems.
+
+3. Now, you can create an animation using the following example command:
+
 
    ```
    animate "10 7 6 11/1 3 12 5/4 13 14 2/9 0 15 8" "DLDLDRRUURULLDRDLULDDRRRULDLUULURRDDLLDRRULLUU"
