@@ -2,12 +2,14 @@
 
 15puzzleAnimateCLI is a specialized animation tool developed for the Windows Command Prompt (CMD) using C++. With a focus on simplicity and efficiency, this tool allows you to create captivating animations of the 15 Puzzle concept within the Windows CMD window.
 
-**Please Note:** The animations created with 15puzzleAnimateCLI are designed to be displayed solely within the Windows Command Prompt (CMD) environment and do not generate any standalone animation files.
+**Please Note:** The animations created with 15puzzleAnimateCLI are designed to be displayed solely within the Windows Command Prompt (CMD) environment and do not generate any standalone animation files. 
+
+For video animations you may like to use [this python script](https://github.com/dphdmn/slidingPuzzleAnimation)
 
 ### Requirements
 
 Before using 15puzzleAnimateCLI, make sure to have the "slidycli" tool installed. You can find it at [slidy-cli](https://github.com/benwh1/slidy-cli/releases).
-For video animations you may like to use [this python script](https://github.com/dphdmn/slidingPuzzleAnimation)
+
 
 ### Usage
 
