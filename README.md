@@ -4,7 +4,7 @@
 
 ### Requirements
 
-To use 15puzzleAnimateCLI, you must have the "slidycli" library installed. You can find the library and installation instructions at https://github.com/benwh1/slidy-cli.
+To use 15puzzleAnimateCLI, you must have the "slidycli" library installed. You can find the library and installation instructions at [slidy-cli](https://github.com/benwh1/slidy-cli/releases)
 
 ### Usage
 
