@@ -18,7 +18,7 @@ Follow these steps to create your 15 Puzzle animations:
 
 2. Compile the tool by running `compile.bat` from `colortest.cpp` and put the result in `scripts` folder, or simply use existing `core.exe` if you prefer the precompiled version.
 
-3. Run folder in CMD. or add it in PATH. Now, you can create an animation using the following example command:
+3. Run folder in CMD, or add it in PATH. Now, you can create an animation using the following example command:
 
    ```
    animate "10 7 6 11/1 3 12 5/4 13 14 2/9 0 15 8" "DLDLDRRUURULLDRDLULDDRRRULDLUULURRDDLLDRRULLUU"
