@@ -1,6 +1,15 @@
 #include <iostream>
 #include <string>
 #include <cstdio>
+#include <Windows.h>
+
+void fixPath(){
+    char buffer[MAX_PATH];
+    GetModuleFileName(NULL, buffer, MAX_PATH);
+    std::string executablePath = buffer;
+    std::string executableDir = executablePath.substr(0, executablePath.find_last_of("\\/"));
+    SetCurrentDirectory(executableDir.c_str());
+}
 
 std::string applyCommand(const std::string& command) {
     std::string result;
@@ -16,6 +25,7 @@ std::string applyCommand(const std::string& command) {
 }
 
 int main(int argc, char* argv[]) {
+    fixPath();
     std::string arg1 = "";
     std::string arg2 = "";
 
